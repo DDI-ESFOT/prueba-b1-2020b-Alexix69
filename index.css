@@ -1,29 +1,41 @@
-body {
-	text-transform: lowercase;
+.main-container {
+	padding: 0px;
 }
 
-nav.navbar {
-	height: 100px;
+
+
+.card {
+	border: none;
 }
 
-.main-menu {
-	justify-content: flex-end;
+.taxi-icon {
+	border-radius:50;
 }
 
-.main-header {
-	background-color: #FFE1BC;
+.taxi-img {
+	position: fixed;
+	z-index: -1;
+	bottom: 100px;
 }
 
-.btn-dark {
-	border-radius: 25px;
+.icons-s3-lg, .footer-design {
+	background-color: #055198;
 }
 
-.btn-primary:hover {
-	background-color: #ffffff;
-	color: #000000;
-	border-color: #000000;
+
+
+.form {
+	display: inline-block; 
+	border:1px solid #eee;
+	border-radius: 20px;
+	padding: 20px;
+}
+.form input{
+	border:none;
+	border-bottom: 1px solid #eee;
 }
 
-.section-title {
-	text-align: center;
+.btn-rounded-pill {
+	border:2px solid #fff;
+	background-color: #F09801;
 }
